@@ -1,0 +1,9 @@
+1. intro
+2. js
+3. Backend
+    data
+    files
+    api
+4. DB, orm, odm
+5. files structure
+  
