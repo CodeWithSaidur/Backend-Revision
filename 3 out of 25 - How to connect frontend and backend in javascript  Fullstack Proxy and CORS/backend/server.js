@@ -28,6 +28,11 @@ app.get('/product', (req, res) => {
       name: 'product q',
       description: 'This is a product 4',
     },
+    {
+      id: 5,
+      name: 'product 5',
+      description: 'This is a product 5',
+    },
   ];
   res.send(product);
 });
