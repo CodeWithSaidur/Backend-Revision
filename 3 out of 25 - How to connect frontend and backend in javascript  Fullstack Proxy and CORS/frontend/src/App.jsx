@@ -1,5 +1,3 @@
-// App.js
-
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
@@ -15,7 +13,7 @@ const App = () => {
       .catch((error) => {
         console.log(error);
       });
-  },[]);
+  }, []);
 
   return (
     <div>
@@ -26,18 +24,20 @@ const App = () => {
           style={{
             border: '2px solid white',
             borderRadius: '10px',
+            padding: '60px',
+            margin: '60px'
           }}
         >
-          <h4>{product.id}</h4>
-          <p>{product.name}</p>
-          <p>{product.category}</p>
-          <p>{product.price}</p>
-          <p>{product.description}</p>
-          <p>{product.brand}</p>
-          <p>{product.colors}</p>
-          <p>{product.stock}</p>
-          <p>{product.rating}</p>
-          <p>{product.reviews}</p>
+          <h4>Id : {product.id}</h4>
+          <p>Name : {product.name}</p>
+          <p>Category : {product.category}</p>
+          <p>Price : {product.price}</p>
+          <p>Description : {product.description}</p>
+          <p>Brand : {product.brand}</p>
+          <p>Color : {product.colors}</p>
+          <p>Stock : {product.stock}</p>
+          <p>Rating : {product.rating}</p>
+          <p>Reviews : {product.reviews}</p>
         </div>
       ))}
     </div>

@@ -143,6 +143,19 @@ app.get('/api/products', (req, res) => {
       rating: 4.6,
       reviews: 420,
     },
+    {
+      id: 11,
+      name: 'GoPro HERO12 Black',
+      category: 'Cameras',
+      price: 399,
+      description:
+        '5.3K video, HyperSmooth 6.0 stabilization',
+      brand: 'GoPro',
+      colors: ['Black'],
+      stock: 50,
+      rating: 4.6,
+      reviews: 420,
+    },
   ];
   res.send(products);
 });
