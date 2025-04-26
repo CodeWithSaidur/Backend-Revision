@@ -12,6 +12,7 @@ const TodoSchema = new mongoose.Schema(
       default: false,
     },
 
+    
     createdBy: {
       // making a relation between todo and user
       type: mongoose.Schema.Types.ObjectId,
