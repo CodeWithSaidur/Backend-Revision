@@ -1,0 +1,55 @@
+1. HTTP
+    URL
+    URI
+    URN
+2. HTTP Header -> meta data
+    useage 
+        1. caching
+        2. authentication
+        3. manage state
+Request Header -> from client to server
+Response Header -> from server to client
+Representation -> how to send data
+Plyload -> actual data
+
+Common Headers
+    Accept -> what type of data i want
+    Content-type -> what type of data i am sending
+    User-Agent -> what browser i am using
+    Authrization -> access token
+    Cookies -> session token
+    Host -> domain name
+    Cach-Control -> caching
+Advanced Headers
+    Proxy-Authorization -> proxy authrization
+    CORS -> cross origin resource sharing
+
+HTTP Methods
+    GET -> get data
+    HEAD -> get header
+    OPTIONS -> get options
+    POST -> send data
+    PUT -> update data
+    PATCH -> update partial data
+    DELETE -> delete data
+
+HTTP Status Codes
+    1xx -> information
+        100 -> continue
+        101 -> switching protocols
+
+    2xx -> success
+        200 -> ok
+        201 -> created
+        204 -> no content
+
+    3xx -> redirection
+        301 -> moved permanently
+
+    4xx -> client error
+        402 -> payment required
+        404 -> not found
+
+    5xx -> server error
+        500 -> internal server error
+        503 -> service unavailable
