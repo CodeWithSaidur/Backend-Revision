@@ -1,0 +1,35 @@
+HTTP
+    URL
+    URI
+    URN
+
+    
+HTTP Headers = are  key-value pairs sent at the start of an HTTP request (from the client) or response (from the server). 
+    Types of HTTP Headers
+    Request Headers – Sent by the client to the server.
+    Example: User-Agent, Accept, Authorization, Cookie
+
+    Response Headers – Sent by the server to the client.
+    Example: Content-Type, Set-Cookie, Cache-Control, Server
+
+    General Headers – Apply to both requests and responses.
+    Example: Date, Connection, Cache-Control
+
+    Entity Headers – Describe the body of the message (e.g., Content-Length, Content-Type).
+
+HTTP METHODS
+    GET
+    POST
+    PUT 
+    DELETE
+    PATCH
+    TRACE
+
+STATUS CODE
+    1XX = INFORMATION
+    2XX = SUCCESS
+    3XX = REDIRECTION
+    4XX = CLIENT ERROR
+    5XX = SERVER ERROR
+
+    
